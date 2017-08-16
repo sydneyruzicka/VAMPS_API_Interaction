@@ -1,4 +1,4 @@
-VAMPS-api
+VAMPS API Interaction  
 =========
 The VAMPS-API is a newly written set of functions that allow directly querying  the VAMPS database for project data and images that go directly to your local drive.  
 These functions still require logging in but the web interface GUI is not used or needed for this.   
@@ -18,10 +18,10 @@ All functions (except get_image) return a JSON object so you can parse and displ
 
 
 **To Use:**  
-Download folder and unzip locally   
-Run Jupyter notebook by typing "jupyter notebook" in terminal  
-The folder/notebook will now be available on the Jupyter dashboard   
-Follow further instructions in "using_VAMPS_API_for_MVCO_datasets.ipynb"  
+* Download folder and unzip locally   
+* Run Jupyter notebook by typing "jupyter notebook" in terminal  
+* The folder/notebook will now be available on the Jupyter dashboard   
+* Follow further instructions in "using_VAMPS_API_for_MVCO_datasets.ipynb"  
 
 ### Get Dataset IDs:
 > You might want dataset_ids if you want an image or data comprising
