@@ -4,6 +4,7 @@ The VAMPS-API is a newly written set of functions that allow directly querying  
 These functions still require logging in but the web interface GUI is not used or needed for this.   
 Once logged in you can get metadata, dataset_ids, and search for projects by name or within a geographic range.
 --------------
+
 * Get all metadata for a project.
 * Search for metadata by name (returns a project list)
 * Search for projects in a geographic location (returns a project list)
@@ -11,10 +12,16 @@ Once logged in you can get metadata, dataset_ids, and search for projects by nam
 * Get project information (owner, public_status, title, description)
 * Get images (The same as on the visualization page from the GUI)
     Including: distance_heatmap, piecharts, barcharts, counts_table, metadata_table 
-      alpha_diversity_table, dendrogram, frequency_heatmap
+      alpha_diversity_table, dendrogram, frequency_heatmap  
     
-All functions (except get_image) return a JSON object so you can parse and display the data from your scripts.
+All functions (except get_image) return a JSON object so you can parse and display the data from your scripts. 
 
+
+**To Use:**  
+Download folder and unzip locally   
+Run Jupyter notebook by typing "jupyter notebook" in terminal  
+The folder/notebook will now be available on the Jupyter dashboard   
+Follow further instructions in "using_VAMPS_API_for_MVCO_datasets.ipynb"  
 
 ### Get Dataset IDs:
 > You might want dataset_ids if you want an image or data comprising
